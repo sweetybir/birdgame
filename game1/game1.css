@@ -1,0 +1,35 @@
+   body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .game-link {
+            margin: 10px;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+        }
+        .game-link img {
+            width: 100px; /* Set this to your preferred size */
+            border: 2px solid #000;
+        }
+        .game-link span {
+            display: block;
+            margin-top: 5px;
+        }
+ 
+        #gameCanvas {
+            border: 1px solid black;
+            background-color: #f0f0f0;
+        }
+
+        #gameInfo {
+            margin-top: 10px;
+        }
+
+        #highScoresList {
+            list-style-type: none;
+        }
+
+        #startGame {
+            color:rgb(190, 221, 221);
+           }

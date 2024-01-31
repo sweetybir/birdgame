@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="game1.css">
+
+</head>
+
+<body>
+    <div id="homePage">
+        <h1>Kia's Breakfast</h1>
+        <button id="startGame">Start Game</button>
+        <button id="viewHighScores">High Scores</button>
+    </div>
+
+    <div id="gamePage" style="display: none;">
+        <canvas id="gameCanvas"></canvas>
+        <div id="gameInfo">
+            <p id="timer">Time: 00:00</p>
+            <p id="score">Score: 0</p>
+            <p id="gameExplanation">Catch the seeds!</p>
+        </div>
+        <button id="pauseGame">Pause</button>
+        <button id="saveGame">Save and Return to Home</button>
+        <p>Hello!:) This is my first time writing a game for Kia. 
+        I want to record more memories with my little bird
+         by making simple games. 230127</p>
+    </div>
+
+    <div id="highScorePage" style="display: none;">
+        <h2>High Scores</h2>
+        <ul id="highScoresList"></ul>
+        <button id="backFromHighScores">Back to Home</button>
+    </div>
+
+    <script src="game1.js"></script>
+</body>
+</html>
